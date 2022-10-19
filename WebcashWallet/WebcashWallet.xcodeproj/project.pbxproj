@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD8CF3328FFD29900D05F49 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3228FFD29900D05F49 /* Tests_iOS.swift */; };
+		2DD8CF3528FFD29900D05F49 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3428FFD29900D05F49 /* Tests_iOSLaunchTests.swift */; };
+		2DD8CF3F28FFD29900D05F49 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3E28FFD29900D05F49 /* Tests_macOS.swift */; };
+		2DD8CF4128FFD29900D05F49 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF4028FFD29900D05F49 /* Tests_macOSLaunchTests.swift */; };
+		2DD8CF4228FFD29900D05F49 /* WebcashWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1A28FFD29600D05F49 /* WebcashWalletApp.swift */; };
+		2DD8CF4328FFD29900D05F49 /* WebcashWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1A28FFD29600D05F49 /* WebcashWalletApp.swift */; };
+		2DD8CF4428FFD29900D05F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1B28FFD29600D05F49 /* ContentView.swift */; };
+		2DD8CF4528FFD29900D05F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1B28FFD29600D05F49 /* ContentView.swift */; };
+		2DD8CF4628FFD29900D05F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1C28FFD29900D05F49 /* Assets.xcassets */; };
+		2DD8CF4728FFD29900D05F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8CF1C28FFD29900D05F49 /* Assets.xcassets */; };
+		2DD8CF5F28FFD35600D05F49 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF5D28FFD35600D05F49 /* common.c */; };
+		2DD8CF6028FFD35600D05F49 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF5D28FFD35600D05F49 /* common.c */; };
+		2DD8CF6A28FFD3D200D05F49 /* sha256_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6328FFD3D100D05F49 /* sha256_avx2.c */; };
+		2DD8CF6B28FFD3D200D05F49 /* sha256_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6328FFD3D100D05F49 /* sha256_avx2.c */; };
+		2DD8CF6C28FFD3D200D05F49 /* sha256_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6428FFD3D100D05F49 /* sha256_sse41.c */; };
+		2DD8CF6D28FFD3D200D05F49 /* sha256_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6428FFD3D100D05F49 /* sha256_sse41.c */; };
+		2DD8CF6E28FFD3D200D05F49 /* sha256_shani.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6528FFD3D100D05F49 /* sha256_shani.c */; };
+		2DD8CF6F28FFD3D200D05F49 /* sha256_shani.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6528FFD3D100D05F49 /* sha256_shani.c */; };
+		2DD8CF7028FFD3D200D05F49 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6728FFD3D100D05F49 /* sha256.c */; };
+		2DD8CF7128FFD3D200D05F49 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6728FFD3D100D05F49 /* sha256.c */; };
+		2DD8CF7228FFD3D200D05F49 /* sha256_sse4.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */; };
+		2DD8CF7328FFD3D200D05F49 /* sha256_sse4.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */; };
+		2DD8CF7428FFD3D200D05F49 /* sha256_armv8.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */; };
+		2DD8CF7528FFD3D200D05F49 /* sha256_armv8.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD8CF2F28FFD29900D05F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD8CF1528FFD29500D05F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD8CF2028FFD29900D05F49;
+			remoteInfo = "WebcashWallet (iOS)";
+		};
+		2DD8CF3B28FFD29900D05F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD8CF1528FFD29500D05F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD8CF2628FFD29900D05F49;
+			remoteInfo = "WebcashWallet (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4B237D28FFD77400AD2526 /* libsha2-config-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-ios.h"; sourceTree = "<group>"; };
+		2D4B237E28FFD77D00AD2526 /* libsha2-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsha2-config.h"; sourceTree = "<group>"; };
+		2DD8CF1A28FFD29600D05F49 /* WebcashWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcashWalletApp.swift; sourceTree = "<group>"; };
+		2DD8CF1B28FFD29600D05F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DD8CF1C28FFD29900D05F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD8CF2128FFD29900D05F49 /* WebcashWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebcashWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD8CF2728FFD29900D05F49 /* WebcashWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebcashWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD8CF2928FFD29900D05F49 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2DD8CF2E28FFD29900D05F49 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD8CF3228FFD29900D05F49 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2DD8CF3428FFD29900D05F49 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		2DD8CF3A28FFD29900D05F49 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD8CF3E28FFD29900D05F49 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2DD8CF4028FFD29900D05F49 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2DD8CF5A28FFD33900D05F49 /* sha256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sha256.h; path = ../libsha2/include/sha2/sha256.h; sourceTree = "<group>"; };
+		2DD8CF5B28FFD35500D05F49 /* WebcashWallet (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebcashWallet (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DD8CF5C28FFD35500D05F49 /* WebcashWallet (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebcashWallet (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DD8CF5D28FFD35600D05F49 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = common.c; path = ../libsha2/lib/common.c; sourceTree = "<group>"; };
+		2DD8CF5E28FFD35600D05F49 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = ../libsha2/lib/common.h; sourceTree = "<group>"; };
+		2DD8CF6328FFD3D100D05F49 /* sha256_avx2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_avx2.c; path = ../libsha2/lib/sha256_avx2.c; sourceTree = "<group>"; };
+		2DD8CF6428FFD3D100D05F49 /* sha256_sse41.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_sse41.c; path = ../libsha2/lib/sha256_sse41.c; sourceTree = "<group>"; };
+		2DD8CF6528FFD3D100D05F49 /* sha256_shani.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_shani.c; path = ../libsha2/lib/sha256_shani.c; sourceTree = "<group>"; };
+		2DD8CF6628FFD3D100D05F49 /* sha256_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha256_internal.h; path = ../libsha2/lib/sha256_internal.h; sourceTree = "<group>"; };
+		2DD8CF6728FFD3D100D05F49 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256.c; path = ../libsha2/lib/sha256.c; sourceTree = "<group>"; };
+		2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_sse4.c; path = ../libsha2/lib/sha256_sse4.c; sourceTree = "<group>"; };
+		2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_armv8.c; path = ../libsha2/lib/sha256_armv8.c; sourceTree = "<group>"; };
+		2DD8CF7828FFD5BB00D05F49 /* libsha2-config-mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-mac.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD8CF1E28FFD29900D05F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2428FFD29900D05F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2B28FFD29900D05F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF3728FFD29900D05F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD8CF1428FFD29500D05F49 = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF5628FFD2E000D05F49 /* Libraries */,
+				2DD8CF5928FFD32800D05F49 /* SHA2 */,
+				2DD8CF1928FFD29600D05F49 /* Shared */,
+				2DD8CF2828FFD29900D05F49 /* macOS */,
+				2DD8CF3128FFD29900D05F49 /* Tests iOS */,
+				2DD8CF3D28FFD29900D05F49 /* Tests macOS */,
+				2DD8CF7628FFD42C00D05F49 /* Support Files */,
+				2DD8CF2228FFD29900D05F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD8CF1928FFD29600D05F49 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF1A28FFD29600D05F49 /* WebcashWalletApp.swift */,
+				2DD8CF1B28FFD29600D05F49 /* ContentView.swift */,
+				2DD8CF1C28FFD29900D05F49 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2DD8CF2228FFD29900D05F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF2128FFD29900D05F49 /* WebcashWallet.app */,
+				2DD8CF2728FFD29900D05F49 /* WebcashWallet.app */,
+				2DD8CF2E28FFD29900D05F49 /* Tests iOS.xctest */,
+				2DD8CF3A28FFD29900D05F49 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD8CF2828FFD29900D05F49 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF2928FFD29900D05F49 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2DD8CF3128FFD29900D05F49 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF3228FFD29900D05F49 /* Tests_iOS.swift */,
+				2DD8CF3428FFD29900D05F49 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2DD8CF3D28FFD29900D05F49 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF3E28FFD29900D05F49 /* Tests_macOS.swift */,
+				2DD8CF4028FFD29900D05F49 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		2DD8CF5628FFD2E000D05F49 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		2DD8CF5928FFD32800D05F49 /* SHA2 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */,
+				2DD8CF6328FFD3D100D05F49 /* sha256_avx2.c */,
+				2DD8CF6628FFD3D100D05F49 /* sha256_internal.h */,
+				2DD8CF6528FFD3D100D05F49 /* sha256_shani.c */,
+				2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */,
+				2DD8CF6428FFD3D100D05F49 /* sha256_sse41.c */,
+				2DD8CF6728FFD3D100D05F49 /* sha256.c */,
+				2DD8CF7828FFD5BB00D05F49 /* libsha2-config-mac.h */,
+				2D4B237D28FFD77400AD2526 /* libsha2-config-ios.h */,
+				2D4B237E28FFD77D00AD2526 /* libsha2-config.h */,
+				2DD8CF5D28FFD35600D05F49 /* common.c */,
+				2DD8CF5E28FFD35600D05F49 /* common.h */,
+				2DD8CF5A28FFD33900D05F49 /* sha256.h */,
+			);
+			name = SHA2;
+			sourceTree = "<group>";
+		};
+		2DD8CF7628FFD42C00D05F49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8CF5B28FFD35500D05F49 /* WebcashWallet (iOS)-Bridging-Header.h */,
+				2DD8CF5C28FFD35500D05F49 /* WebcashWallet (macOS)-Bridging-Header.h */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD8CF4A28FFD29900D05F49 /* Build configuration list for PBXNativeTarget "WebcashWallet (iOS)" */;
+			buildPhases = (
+				2DD8CF1D28FFD29900D05F49 /* Sources */,
+				2DD8CF1E28FFD29900D05F49 /* Frameworks */,
+				2DD8CF1F28FFD29900D05F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebcashWallet (iOS)";
+			productName = "WebcashWallet (iOS)";
+			productReference = 2DD8CF2128FFD29900D05F49 /* WebcashWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD8CF2628FFD29900D05F49 /* WebcashWallet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD8CF4D28FFD29900D05F49 /* Build configuration list for PBXNativeTarget "WebcashWallet (macOS)" */;
+			buildPhases = (
+				2DD8CF2328FFD29900D05F49 /* Sources */,
+				2DD8CF2428FFD29900D05F49 /* Frameworks */,
+				2DD8CF2528FFD29900D05F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebcashWallet (macOS)";
+			productName = "WebcashWallet (macOS)";
+			productReference = 2DD8CF2728FFD29900D05F49 /* WebcashWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD8CF2D28FFD29900D05F49 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD8CF5028FFD29900D05F49 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2DD8CF2A28FFD29900D05F49 /* Sources */,
+				2DD8CF2B28FFD29900D05F49 /* Frameworks */,
+				2DD8CF2C28FFD29900D05F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD8CF3028FFD29900D05F49 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2DD8CF2E28FFD29900D05F49 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2DD8CF3928FFD29900D05F49 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD8CF5328FFD29900D05F49 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2DD8CF3628FFD29900D05F49 /* Sources */,
+				2DD8CF3728FFD29900D05F49 /* Frameworks */,
+				2DD8CF3828FFD29900D05F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD8CF3C28FFD29900D05F49 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2DD8CF3A28FFD29900D05F49 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD8CF1528FFD29500D05F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2DD8CF2028FFD29900D05F49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					2DD8CF2628FFD29900D05F49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					2DD8CF2D28FFD29900D05F49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2DD8CF2028FFD29900D05F49;
+					};
+					2DD8CF3928FFD29900D05F49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2DD8CF2628FFD29900D05F49;
+					};
+				};
+			};
+			buildConfigurationList = 2DD8CF1828FFD29500D05F49 /* Build configuration list for PBXProject "WebcashWallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD8CF1428FFD29500D05F49;
+			productRefGroup = 2DD8CF2228FFD29900D05F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */,
+				2DD8CF2628FFD29900D05F49 /* WebcashWallet (macOS) */,
+				2DD8CF2D28FFD29900D05F49 /* Tests iOS */,
+				2DD8CF3928FFD29900D05F49 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD8CF1F28FFD29900D05F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF4628FFD29900D05F49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2528FFD29900D05F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF4728FFD29900D05F49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2C28FFD29900D05F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF3828FFD29900D05F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD8CF1D28FFD29900D05F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF5F28FFD35600D05F49 /* common.c in Sources */,
+				2DD8CF4428FFD29900D05F49 /* ContentView.swift in Sources */,
+				2DD8CF4228FFD29900D05F49 /* WebcashWalletApp.swift in Sources */,
+				2DD8CF7028FFD3D200D05F49 /* sha256.c in Sources */,
+				2DD8CF6A28FFD3D200D05F49 /* sha256_avx2.c in Sources */,
+				2DD8CF7228FFD3D200D05F49 /* sha256_sse4.c in Sources */,
+				2DD8CF6E28FFD3D200D05F49 /* sha256_shani.c in Sources */,
+				2DD8CF6C28FFD3D200D05F49 /* sha256_sse41.c in Sources */,
+				2DD8CF7428FFD3D200D05F49 /* sha256_armv8.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2328FFD29900D05F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF6028FFD35600D05F49 /* common.c in Sources */,
+				2DD8CF4528FFD29900D05F49 /* ContentView.swift in Sources */,
+				2DD8CF4328FFD29900D05F49 /* WebcashWalletApp.swift in Sources */,
+				2DD8CF7128FFD3D200D05F49 /* sha256.c in Sources */,
+				2DD8CF6B28FFD3D200D05F49 /* sha256_avx2.c in Sources */,
+				2DD8CF7328FFD3D200D05F49 /* sha256_sse4.c in Sources */,
+				2DD8CF6F28FFD3D200D05F49 /* sha256_shani.c in Sources */,
+				2DD8CF6D28FFD3D200D05F49 /* sha256_sse41.c in Sources */,
+				2DD8CF7528FFD3D200D05F49 /* sha256_armv8.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF2A28FFD29900D05F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF3528FFD29900D05F49 /* Tests_iOSLaunchTests.swift in Sources */,
+				2DD8CF3328FFD29900D05F49 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD8CF3628FFD29900D05F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD8CF4128FFD29900D05F49 /* Tests_macOSLaunchTests.swift in Sources */,
+				2DD8CF3F28FFD29900D05F49 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD8CF3028FFD29900D05F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */;
+			targetProxy = 2DD8CF2F28FFD29900D05F49 /* PBXContainerItemProxy */;
+		};
+		2DD8CF3C28FFD29900D05F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD8CF2628FFD29900D05F49 /* WebcashWallet (macOS) */;
+			targetProxy = 2DD8CF3B28FFD29900D05F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DD8CF4828FFD29900D05F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../libsha2/include,
+					.,
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DHAVE_CONFIG_H=1";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD8CF4928FFD29900D05F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../libsha2/include,
+					.,
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-DHAVE_CONFIG_H=1";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2DD8CF4B28FFD29900D05F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWallet;
+				PRODUCT_NAME = WebcashWallet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebcashWallet (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD8CF4C28FFD29900D05F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWallet;
+				PRODUCT_NAME = WebcashWallet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebcashWallet (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD8CF4E28FFD29900D05F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWallet;
+				PRODUCT_NAME = WebcashWallet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebcashWallet (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2DD8CF4F28FFD29900D05F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWallet;
+				PRODUCT_NAME = WebcashWallet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebcashWallet (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2DD8CF5128FFD29900D05F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.koreya.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebcashWallet (iOS)";
+			};
+			name = Debug;
+		};
+		2DD8CF5228FFD29900D05F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.koreya.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebcashWallet (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD8CF5428FFD29900D05F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.koreya.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WebcashWallet (macOS)";
+			};
+			name = Debug;
+		};
+		2DD8CF5528FFD29900D05F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.koreya.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WebcashWallet (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD8CF1828FFD29500D05F49 /* Build configuration list for PBXProject "WebcashWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD8CF4828FFD29900D05F49 /* Debug */,
+				2DD8CF4928FFD29900D05F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD8CF4A28FFD29900D05F49 /* Build configuration list for PBXNativeTarget "WebcashWallet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD8CF4B28FFD29900D05F49 /* Debug */,
+				2DD8CF4C28FFD29900D05F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD8CF4D28FFD29900D05F49 /* Build configuration list for PBXNativeTarget "WebcashWallet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD8CF4E28FFD29900D05F49 /* Debug */,
+				2DD8CF4F28FFD29900D05F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD8CF5028FFD29900D05F49 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD8CF5128FFD29900D05F49 /* Debug */,
+				2DD8CF5228FFD29900D05F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD8CF5328FFD29900D05F49 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD8CF5428FFD29900D05F49 /* Debug */,
+				2DD8CF5528FFD29900D05F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD8CF1528FFD29500D05F49 /* Project object */;
+}
