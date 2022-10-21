@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				2DD8CF5628FFD2E000D05F49 /* Libraries */,
-				2DD8CF5928FFD32800D05F49 /* SHA2 */,
 				2DD8CF1928FFD29600D05F49 /* Shared */,
 				2DD8CF2828FFD29900D05F49 /* macOS */,
 				2DD8CF3128FFD29900D05F49 /* Tests iOS */,
@@ -176,6 +175,7 @@
 		2DD8CF5628FFD2E000D05F49 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				2DD8CF5928FFD32800D05F49 /* SHA2 */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
