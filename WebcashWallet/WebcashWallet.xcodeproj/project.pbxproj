@@ -77,7 +77,8 @@
 		2DD8CF6728FFD3D100D05F49 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256.c; path = ../libsha2/lib/sha256.c; sourceTree = "<group>"; };
 		2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_sse4.c; path = ../libsha2/lib/sha256_sse4.c; sourceTree = "<group>"; };
 		2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha256_armv8.c; path = ../libsha2/lib/sha256_armv8.c; sourceTree = "<group>"; };
-		2DD8CF7828FFD5BB00D05F49 /* libsha2-config-mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-mac.h"; sourceTree = "<group>"; };
+		4D194FBF290271660064D57B /* libsha2-config-macos-x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-macos-x86.h"; sourceTree = "<group>"; };
+		4D194FC0290271660064D57B /* libsha2-config-macos-arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-macos-arm.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +191,8 @@
 				2DD8CF6828FFD3D200D05F49 /* sha256_sse4.c */,
 				2DD8CF6428FFD3D100D05F49 /* sha256_sse41.c */,
 				2DD8CF6728FFD3D100D05F49 /* sha256.c */,
-				2DD8CF7828FFD5BB00D05F49 /* libsha2-config-mac.h */,
+				4D194FC0290271660064D57B /* libsha2-config-macos-arm.h */,
+				4D194FBF290271660064D57B /* libsha2-config-macos-x86.h */,
 				2D4B237D28FFD77400AD2526 /* libsha2-config-ios.h */,
 				2D4B237E28FFD77D00AD2526 /* libsha2-config.h */,
 				2DD8CF5D28FFD35600D05F49 /* common.c */,
