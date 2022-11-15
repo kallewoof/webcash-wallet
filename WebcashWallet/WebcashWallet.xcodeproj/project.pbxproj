@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4B23842907863D00AD2526 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B23832907863D00AD2526 /* SHA2.swift */; };
+		2D4B23852907863D00AD2526 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B23832907863D00AD2526 /* SHA2.swift */; };
+		2D4B238C2907A9C100AD2526 /* HexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B238B2907A9C100AD2526 /* HexConversion.swift */; };
+		2D4B238D2907A9C100AD2526 /* HexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B238B2907A9C100AD2526 /* HexConversion.swift */; };
+		2D4B238F2907AD3A00AD2526 /* HexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B238B2907A9C100AD2526 /* HexConversion.swift */; };
+		2D4B23902907AD3C00AD2526 /* HexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B238B2907A9C100AD2526 /* HexConversion.swift */; };
+		2D925618290A17B200A7C0F9 /* WebcashWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D925617290A17B200A7C0F9 /* WebcashWalletTests.swift */; };
+		2D92561E290A17C700A7C0F9 /* SHA2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B23882907A8F100AD2526 /* SHA2Tests.swift */; };
 		2DD8CF3328FFD29900D05F49 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3228FFD29900D05F49 /* Tests_iOS.swift */; };
 		2DD8CF3528FFD29900D05F49 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3428FFD29900D05F49 /* Tests_iOSLaunchTests.swift */; };
 		2DD8CF3F28FFD29900D05F49 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8CF3E28FFD29900D05F49 /* Tests_macOS.swift */; };
@@ -34,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2D925619290A17B200A7C0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD8CF1528FFD29500D05F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD8CF2028FFD29900D05F49;
+			remoteInfo = "WebcashWallet (iOS)";
+		};
 		2DD8CF2F28FFD29900D05F49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DD8CF1528FFD29500D05F49 /* Project object */;
@@ -53,6 +68,11 @@
 /* Begin PBXFileReference section */
 		2D4B237D28FFD77400AD2526 /* libsha2-config-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsha2-config-ios.h"; sourceTree = "<group>"; };
 		2D4B237E28FFD77D00AD2526 /* libsha2-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsha2-config.h"; sourceTree = "<group>"; };
+		2D4B23832907863D00AD2526 /* SHA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA2.swift; sourceTree = "<group>"; };
+		2D4B23882907A8F100AD2526 /* SHA2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA2Tests.swift; sourceTree = "<group>"; };
+		2D4B238B2907A9C100AD2526 /* HexConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexConversion.swift; sourceTree = "<group>"; };
+		2D925615290A17B200A7C0F9 /* WebcashWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebcashWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D925617290A17B200A7C0F9 /* WebcashWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcashWalletTests.swift; sourceTree = "<group>"; };
 		2DD8CF1A28FFD29600D05F49 /* WebcashWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcashWalletApp.swift; sourceTree = "<group>"; };
 		2DD8CF1B28FFD29600D05F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DD8CF1C28FFD29900D05F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +102,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2D925612290A17B200A7C0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD8CF1E28FFD29900D05F49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,14 +140,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4B23812907863D00AD2526 /* wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B23822907863D00AD2526 /* swift */,
+			);
+			name = wrappers;
+			path = ../libsha2/wrappers;
+			sourceTree = "<group>";
+		};
+		2D4B23822907863D00AD2526 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B23832907863D00AD2526 /* SHA2.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		2D4B238A2907A9B400AD2526 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B238B2907A9C100AD2526 /* HexConversion.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2D925616290A17B200A7C0F9 /* WebcashWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B23882907A8F100AD2526 /* SHA2Tests.swift */,
+				2D925617290A17B200A7C0F9 /* WebcashWalletTests.swift */,
+			);
+			path = WebcashWalletTests;
+			sourceTree = "<group>";
+		};
 		2DD8CF1428FFD29500D05F49 = {
 			isa = PBXGroup;
 			children = (
+				2D4B238A2907A9B400AD2526 /* Helpers */,
 				2DD8CF5628FFD2E000D05F49 /* Libraries */,
 				2DD8CF1928FFD29600D05F49 /* Shared */,
 				2DD8CF2828FFD29900D05F49 /* macOS */,
 				2DD8CF3128FFD29900D05F49 /* Tests iOS */,
 				2DD8CF3D28FFD29900D05F49 /* Tests macOS */,
+				2D925616290A17B200A7C0F9 /* WebcashWalletTests */,
 				2DD8CF7628FFD42C00D05F49 /* Support Files */,
 				2DD8CF2228FFD29900D05F49 /* Products */,
 			);
@@ -143,6 +206,7 @@
 				2DD8CF2728FFD29900D05F49 /* WebcashWallet.app */,
 				2DD8CF2E28FFD29900D05F49 /* Tests iOS.xctest */,
 				2DD8CF3A28FFD29900D05F49 /* Tests macOS.xctest */,
+				2D925615290A17B200A7C0F9 /* WebcashWalletTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +248,7 @@
 		2DD8CF5928FFD32800D05F49 /* SHA2 */ = {
 			isa = PBXGroup;
 			children = (
+				2D4B23812907863D00AD2526 /* wrappers */,
 				2DD8CF6928FFD3D200D05F49 /* sha256_armv8.c */,
 				2DD8CF6328FFD3D100D05F49 /* sha256_avx2.c */,
 				2DD8CF6628FFD3D100D05F49 /* sha256_internal.h */,
@@ -214,6 +279,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2D925614290A17B200A7C0F9 /* WebcashWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D92561B290A17B200A7C0F9 /* Build configuration list for PBXNativeTarget "WebcashWalletTests" */;
+			buildPhases = (
+				2D925611290A17B200A7C0F9 /* Sources */,
+				2D925612290A17B200A7C0F9 /* Frameworks */,
+				2D925613290A17B200A7C0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D92561A290A17B200A7C0F9 /* PBXTargetDependency */,
+			);
+			name = WebcashWalletTests;
+			productName = WebcashWalletTests;
+			productReference = 2D925615290A17B200A7C0F9 /* WebcashWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD8CF4A28FFD29900D05F49 /* Build configuration list for PBXNativeTarget "WebcashWallet (iOS)" */;
@@ -294,6 +377,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					2D925614290A17B200A7C0F9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2DD8CF2028FFD29900D05F49;
+					};
 					2DD8CF2028FFD29900D05F49 = {
 						CreatedOnToolsVersion = 13.2.1;
 						LastSwiftMigration = 1320;
@@ -329,11 +416,19 @@
 				2DD8CF2628FFD29900D05F49 /* WebcashWallet (macOS) */,
 				2DD8CF2D28FFD29900D05F49 /* Tests iOS */,
 				2DD8CF3928FFD29900D05F49 /* Tests macOS */,
+				2D925614290A17B200A7C0F9 /* WebcashWalletTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2D925613290A17B200A7C0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD8CF1F28FFD29900D05F49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +462,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2D925611290A17B200A7C0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D925618290A17B200A7C0F9 /* WebcashWalletTests.swift in Sources */,
+				2D92561E290A17C700A7C0F9 /* SHA2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD8CF1D28FFD29900D05F49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,7 +480,9 @@
 				2DD8CF4228FFD29900D05F49 /* WebcashWalletApp.swift in Sources */,
 				2DD8CF7028FFD3D200D05F49 /* sha256.c in Sources */,
 				2DD8CF6A28FFD3D200D05F49 /* sha256_avx2.c in Sources */,
+				2D4B23842907863D00AD2526 /* SHA2.swift in Sources */,
 				2DD8CF7228FFD3D200D05F49 /* sha256_sse4.c in Sources */,
+				2D4B238C2907A9C100AD2526 /* HexConversion.swift in Sources */,
 				2DD8CF6E28FFD3D200D05F49 /* sha256_shani.c in Sources */,
 				2DD8CF6C28FFD3D200D05F49 /* sha256_sse41.c in Sources */,
 				2DD8CF7428FFD3D200D05F49 /* sha256_armv8.c in Sources */,
@@ -392,7 +498,9 @@
 				2DD8CF4328FFD29900D05F49 /* WebcashWalletApp.swift in Sources */,
 				2DD8CF7128FFD3D200D05F49 /* sha256.c in Sources */,
 				2DD8CF6B28FFD3D200D05F49 /* sha256_avx2.c in Sources */,
+				2D4B23852907863D00AD2526 /* SHA2.swift in Sources */,
 				2DD8CF7328FFD3D200D05F49 /* sha256_sse4.c in Sources */,
+				2D4B238D2907A9C100AD2526 /* HexConversion.swift in Sources */,
 				2DD8CF6F28FFD3D200D05F49 /* sha256_shani.c in Sources */,
 				2DD8CF6D28FFD3D200D05F49 /* sha256_sse41.c in Sources */,
 				2DD8CF7528FFD3D200D05F49 /* sha256_armv8.c in Sources */,
@@ -405,6 +513,7 @@
 			files = (
 				2DD8CF3528FFD29900D05F49 /* Tests_iOSLaunchTests.swift in Sources */,
 				2DD8CF3328FFD29900D05F49 /* Tests_iOS.swift in Sources */,
+				2D4B23902907AD3C00AD2526 /* HexConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD8CF4128FFD29900D05F49 /* Tests_macOSLaunchTests.swift in Sources */,
+				2D4B238F2907AD3A00AD2526 /* HexConversion.swift in Sources */,
 				2DD8CF3F28FFD29900D05F49 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +530,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2D92561A290A17B200A7C0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */;
+			targetProxy = 2D925619290A17B200A7C0F9 /* PBXContainerItemProxy */;
+		};
 		2DD8CF3028FFD29900D05F49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2DD8CF2028FFD29900D05F49 /* WebcashWallet (iOS) */;
@@ -433,6 +548,47 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2D92561C290A17B200A7C0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebcashWallet.app/WebcashWallet";
+			};
+			name = Debug;
+		};
+		2D92561D290A17B200A7C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464WN6B3RH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.koreya.WebcashWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebcashWallet.app/WebcashWallet";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2DD8CF4828FFD29900D05F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -570,6 +726,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -603,6 +760,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -693,6 +851,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
@@ -713,6 +872,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
@@ -734,6 +894,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
@@ -753,6 +914,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 464WN6B3RH;
@@ -771,6 +933,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D92561B290A17B200A7C0F9 /* Build configuration list for PBXNativeTarget "WebcashWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D92561C290A17B200A7C0F9 /* Debug */,
+				2D92561D290A17B200A7C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2DD8CF1828FFD29500D05F49 /* Build configuration list for PBXProject "WebcashWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
