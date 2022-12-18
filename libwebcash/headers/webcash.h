@@ -43,9 +43,9 @@ struct webcash_callbacks {
 bool webcash_init(struct webcash_callbacks);
 
 /**
- * Create a webcash wallet from scratch, using the provided root, if any.
+ * Create a webcash wallet from scratch, using the provided entropy, if any.
  */
-void webcash_create(struct webcash_callbacks, struct sha256* root);
+void webcash_create(struct webcash_callbacks, struct sha256* entropy);
 
 // Manage collection of keys (your wallet)
 
