@@ -56,7 +56,7 @@ typedef uint64_t webcash_amount;
 
 webcash_amount webcash_get_balance(void);
 
-struct webcash_wallet_secret* webcash_wallet_reserve_secret(uint64_t timestamp, bool mine, bool sweep);
+struct webcash_wallet_secret* webcash_wallet_reserve_secret(bool mine, bool sweep);
 
 void webcash_generate_payment(webcash_amount amount, void* user_info, webcash_callback_payment_data callback);
 
