@@ -20,8 +20,6 @@ typedef bool (*webcash_callback_retrieve_data)(const char* key, uint8_t** data, 
 
 typedef void (*webcash_callback_store_data)(const char* key, const uint8_t* data, const size_t len);
 
-typedef void (*webcash_callback_fill_random)(uint64_t amount, uint8_t* dest);
-
 typedef void (*webcash_callback_payment_data)(const char* error_or_nil, void* user_info, const char* payment_key);
 
 typedef void (*webcash_callback_raise)(const char* exception);
@@ -31,7 +29,6 @@ typedef void (*webcash_callback_error)(const char* error_or_nil, void* user_info
 struct webcash_callbacks {
     webcash_callback_retrieve_data retrieve_data;
     webcash_callback_store_data store_data;
-    webcash_callback_fill_random fill_random;
 
     webcash_callback_raise raise;
 };
